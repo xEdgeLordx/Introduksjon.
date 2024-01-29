@@ -1,0 +1,96 @@
+.container{
+    display: flex;
+    padding-left: 600px;
+}
+.Box1{
+    margin: 50px;
+    background-color: lightgray;
+    margin: 50px;
+    width: 700px;
+    height: 2500px;
+    padding-left: 50px;
+}
+.Box2{
+    margin: 50px;
+    background-color: lightgray;
+    margin: 50px;
+    width: 1500px;
+    height: 2500px;
+    padding-left: 50px;
+}
+.button{
+    background-color: brown;
+    color: white;
+    height: 50px;
+    width: 500px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 75px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+
+}
+.button:hover{
+    background-color: red;
+    color: white;
+    height: 50px;
+    width: 500px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 75px;
+    cursor: pointer;
+    border: 10px;
+    font-size: 20px;
+
+}
+.img{
+    padding-top: 100px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.socialtext{
+    font-size: 50px;
+    padding-top: 50px;
+}
+.Header{
+    font-size: 75px;
+}
+.HobbyText{
+    font-size: 25px;
+}
+.DND{
+    max-width: 1450px;
+}
+.selfie{
+    max-width: 650px;
+}
+.background{
+    animation: animate 5s ease infinite;
+} @keyframes animate{
+    10%{
+        background-color: yellowgreen;
+
+}20%{
+        background-color: yellow;
+
+}30%{
+        background-color: orange;
+
+} 40%{
+        background-color: red;
+
+}50%{
+        background-color: purple;
+
+}60%{
+        background-color: pink;
+
+} 70%{
+        background-color: peachpuff;
+
+}80%{
+        background-color: yellow;
+
+}90%{
+        background-color: yellowgreen;}
