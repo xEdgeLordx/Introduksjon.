@@ -1,12 +1,12 @@
 .container{
     display: flex;
-    padding-left: 300px;
+    padding-left: 240px;
 }
 .Box1{
     margin: 50px;
     background-color: lightgray;
     margin: 50px;
-    width: 700px;
+    width: 560px;
     height: 2500px;
     padding-left: 50px;
 }
@@ -14,15 +14,15 @@
     margin: 50px;
     background-color: lightgray;
     margin: 50px;
-    width: 1500px;
+    width: 1200px;
     height: 2500px;
     padding-left: 50px;
 }
 .button{
     background-color: brown;
     color: white;
-    height: 50px;
-    width: 500px;
+    height: 40px;
+    width: 400px;
     border: none;
     margin-top: 50px;
     margin-left: 75px;
@@ -34,8 +34,8 @@
 .button:hover{
     background-color: red;
     color: white;
-    height: 50px;
-    width: 500px;
+    height: 40px;
+    width: 400px;
     border: none;
     margin-top: 50px;
     margin-left: 75px;
@@ -44,26 +44,28 @@
     font-size: 20px;
 
 }
+ 
 .img{
-    padding-top: 100px;
-    border-radius: 10%;
+    border-radius: 20px;
+    padding-top: 5px;
     cursor: pointer;
+    max-width: 500px;
 }
 .socialtext{
-    font-size: 50px;
-    padding-top: 50px;
+    font-size: 40px;
+    padding-top: 40px;
 }
 .Header{
-    font-size: 75px;
+    font-size: 60px;
 }
 .HobbyText{
     font-size: 25px;
 }
 .DND{
-    max-width: 1450px;
+    max-width: 1160px;
 }
 .selfie{
-    max-width: 650px;
+    max-width: 520px;
 }
 .background{
     animation: animate 5s ease infinite;

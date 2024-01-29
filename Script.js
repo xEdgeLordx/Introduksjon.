@@ -31,9 +31,9 @@ function showsocials(){
     document.getElementById('socials');
     document.getElementById('socials').innerHTML = /*html*/`
     <div class = "socialtext">Steam</div>
-    <div class = "img"><img onclick = "Steam()" src="https://cdn.discordapp.com/attachments/733586866502107150/1201511562507190302/image.png?ex=65ca15d7&is=65b7a0d7&hm=37781835d4f2c7920cae073fc3a426ea1996abd1c6a1986e07dbea9d84930480&"/></div>
+    <div class = "img"><img class = "img" onclick = "Steam()" src="https://cdn.discordapp.com/attachments/733586866502107150/1201511562507190302/image.png?ex=65ca15d7&is=65b7a0d7&hm=37781835d4f2c7920cae073fc3a426ea1996abd1c6a1986e07dbea9d84930480&"/></div>
     <div class = "socialtext">Github</div>
-    <div class = "img"><img onclick = "Github()" src="https://cdn.discordapp.com/attachments/733586866502107150/1201512646587973802/Github.png?ex=65ca16d9&is=65b7a1d9&hm=552dba936418abb5c89d7b8ca8c83a132f780145431553985966cf12ccf177ee&"/></div>
+    <div class = "img"><img class = "img" onclick = "Github()" src="https://cdn.discordapp.com/attachments/733586866502107150/1201512646587973802/Github.png?ex=65ca16d9&is=65b7a1d9&hm=552dba936418abb5c89d7b8ca8c83a132f780145431553985966cf12ccf177ee&"/></div>
     <div id = "partybutt"><button class = "button" onclick = "party()">Party?</button></div>`
     
 }
