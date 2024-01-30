@@ -1,12 +1,12 @@
 .container{
     display: flex;
-    padding-left: 240px;
+    padding-left: 120px;
 }
 .Box1{
     margin: 50px;
     background-color: lightgray;
     margin: 50px;
-    width: 560px;
+    width: 360px;
     height: 2500px;
     padding-left: 50px;
 }
@@ -14,7 +14,7 @@
     margin: 50px;
     background-color: lightgray;
     margin: 50px;
-    width: 1200px;
+    width: 1000px;
     height: 2500px;
     padding-left: 50px;
 }
@@ -22,10 +22,10 @@
     background-color: brown;
     color: white;
     height: 40px;
-    width: 400px;
+    width: 300px;
     border: none;
     margin-top: 50px;
-    margin-left: 75px;
+    margin-left: 5px;
     cursor: pointer;
     border-radius: 10px;
     font-size: 25px;
@@ -35,10 +35,10 @@
     background-color: red;
     color: white;
     height: 40px;
-    width: 400px;
+    width: 300px;
     border: none;
     margin-top: 50px;
-    margin-left: 75px;
+    margin-left: 5px;
     cursor: pointer;
     border: 10px;
     font-size: 20px;
@@ -49,7 +49,7 @@
     border-radius: 20px;
     padding-top: 5px;
     cursor: pointer;
-    max-width: 500px;
+    max-width: 330px;
 }
 .socialtext{
     font-size: 40px;
@@ -62,10 +62,10 @@
     font-size: 25px;
 }
 .DND{
-    max-width: 1160px;
+    max-width: 950px;
 }
 .selfie{
-    max-width: 520px;
+    max-width: 330px;
 }
 .background{
     animation: animate 5s ease infinite;

@@ -11,7 +11,7 @@ function displayHobbies(){
     <h3 class = "Header">Minifigurer</h3>
     <div class = "HobbyText">Som et komplement til DnD 3D printer jeg og maler miniatyrfigurer som brukes i spillet. Jeg har alltid drevet med litt kreativt her og der som maleri og tegning, men det er maling av minifigurer jeg liker best. Jeg har drevet med hobbyen i noen år nå, men har fortsatt veldig mye å lære.
 Nedenfor er det noen eksempler på minifigurer jeg har malt selv.
-</div>
+</div><br>
 <div class = "DND"><img class = "DND" src = "https://cdn.discordapp.com/attachments/733586866502107150/1201525455803654246/20240129_145239.jpg?ex=65ca22c7&is=65b7adc7&hm=08618714d8bfac678c2795736701c741817c93f919fa22c4d2d24ab0e2ae4110&"/></div> `
 
 }
