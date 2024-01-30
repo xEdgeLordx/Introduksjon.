@@ -1,22 +1,72 @@
 .container{
     display: flex;
-    padding-left: 120px;
+    max-width: 1000px;
+    margin: auto;
+    justify-content: center;
 }
 .Box1{
     margin: 50px;
-    background-color: lightgray;
+    background-color: white;
     margin: 50px;
-    width: 360px;
+    width: 400px;
     height: 2500px;
     padding-left: 50px;
 }
 .Box2{
     margin: 50px;
-    background-color: lightgray;
+    background-color: white;
+    margin: 50px;
+    width: 1000px;
+    height: 2500px;
+    padding-left: 25px;
+    padding-right: 25px;
+    min-width: 1000px;    
+}
+.Box2H{
+    margin: 50px;
+    background-color: #2d2d30;
     margin: 50px;
     width: 1000px;
     height: 2500px;
     padding-left: 50px;
+    min-width: 1000px;
+}
+    .Box2Party{
+    margin: 50px;
+    background-color: #2d2d30;
+    margin: 50px;
+    width: 1000px;
+    height: 2500px;
+    padding-left: 50px;
+    min-width: 1000px;
+    animation: animate 5s ease infinite;
+} @keyframes animate{
+    10%{
+        background-color: yellowgreen;
+
+}20%{
+        background-color: yellow;
+
+}30%{
+        background-color: orange;
+
+} 40%{
+        background-color: red;
+
+}50%{
+        background-color: purple;
+
+}60%{
+        background-color: pink;
+
+} 70%{
+        background-color: peachpuff;
+
+}80%{
+        background-color: yellow;
+
+}90%{
+        background-color: yellowgreen;}
 }
 .button{
     background-color: brown;
@@ -44,28 +94,35 @@
     font-size: 20px;
 
 }
+html{
+    background-color: #2d2d30;
+}
  
 .img{
     border-radius: 20px;
     padding-top: 5px;
     cursor: pointer;
-    max-width: 330px;
+    max-width: 300px;
 }
 .socialtext{
     font-size: 40px;
     padding-top: 40px;
 }
 .Header{
-    font-size: 60px;
+    font-size: 50px;
 }
 .HobbyText{
-    font-size: 25px;
+    font-size: 23px;
+    padding-right: 30px;
+    padding-left: 10px;
 }
 .DND{
-    max-width: 950px;
+    max-width: 990px;
+    padding-left: 5px;
 }
 .selfie{
-    max-width: 330px;
+    max-width: 350px;
+    padding-right: 50px;
 }
 .background{
     animation: animate 5s ease infinite;

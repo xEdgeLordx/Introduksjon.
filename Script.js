@@ -16,7 +16,7 @@ Nedenfor er det noen eksempler på minifigurer jeg har malt selv.
 
 }
 function removeHobbies(){
-    document.getElementById('hobbybox').classList = "";
+    document.getElementById('hobbybox').classList = "Box2H";
     document.getElementById('button');
     document.getElementById('button').innerHTML = /*html*/`
     <button class = "button" onclick = "displayHobbies()">Mine hobbyer</button>`
@@ -46,6 +46,9 @@ function hidesocials(){
     
 }
 function party(){
+    removeHobbies();
+    document.getElementById('hobbybox');
+    document.getElementById('hobbybox').classList = "Box2Party";
     document.getElementById('partybutt');
     document.getElementById('partybutt').innerHTML = /*html*/`
     <button class = "button" onclick = "stopparty()">Stop Party</button>`
@@ -53,6 +56,7 @@ function party(){
     document.getElementById('background').classList = "background";
 }
 function stopparty(){
+    removeHobbies();
     document.getElementById('partybutt');
     document.getElementById('partybutt').innerHTML = /*html*/`
     <button class = "button" onclick = "party()">Party?</button>`
@@ -64,4 +68,7 @@ function Steam(){
 }
 function Github(){
     location.href = "https://github.com/xEdgeLordx"
+}
+function party2(){
+    
 }
