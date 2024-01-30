@@ -6,7 +6,7 @@
 }
 .Box1{
     margin: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.096);
     margin: 50px;
     width: 400px;
     height: 2500px;
@@ -14,7 +14,7 @@
 }
 .Box2{
     margin: 50px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.096);
     margin: 50px;
     width: 1000px;
     height: 2500px;
@@ -107,14 +107,20 @@ html{
 .socialtext{
     font-size: 40px;
     padding-top: 40px;
+    font-family: sans-serif;
+    color: white;
 }
 .Header{
     font-size: 50px;
+    font-family: sans-serif;
+    color: white;
 }
 .HobbyText{
     font-size: 23px;
     padding-right: 30px;
     padding-left: 10px;
+    font-family: sans-serif;
+    color: white;
 }
 .DND{
     max-width: 990px;
