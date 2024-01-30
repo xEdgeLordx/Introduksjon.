@@ -4,6 +4,10 @@
     margin: auto;
     justify-content: center;
 }
+.Partyimage{
+    height: 1500px;
+    width: 1000px;
+}
 .Box1{
     margin: 50px;
     background-color: rgba(255, 255, 255, 0.096);

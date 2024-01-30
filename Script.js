@@ -46,7 +46,9 @@ function hidesocials(){
     
 }
 function party(){
-    removeHobbies();
+    document.getElementById('hobbybox');
+    document.getElementById('hobbybox').innerHTML = /*html*/`
+    <img class = "Partyimage" src = "https://media1.tenor.com/m/t5fpt8VevjoAAAAC/chair-spin-spin-chair.gif"/>`
     document.getElementById('hobbybox');
     document.getElementById('hobbybox').classList = "Box2Party";
     document.getElementById('partybutt');
@@ -68,7 +70,4 @@ function Steam(){
 }
 function Github(){
     location.href = "https://github.com/xEdgeLordx"
-}
-function party2(){
-    
 }
