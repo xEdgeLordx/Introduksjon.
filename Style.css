@@ -96,6 +96,36 @@
     cursor: pointer;
     border: 10px;
     font-size: 20px;
+    transition: 0.2s;
+
+}
+.button:not(hover){
+    background-color: brown;
+    color: white;
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 25px;
+    transition: 0.1s;
+
+}
+
+.button:focus{
+    background-color: white;
+    color: red;
+    height: 40px;
+    width: 300px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 5px;
+    cursor: pointer;
+    border: 10px;
+    font-size: 20px;
+    transition: 0.3s;
 
 }
 html{
